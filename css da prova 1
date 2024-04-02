@@ -1,0 +1,113 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(161, 10, 161, 0.712), blue)
+  }
+  
+  .login-box {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .email-input-box label,
+.email-input-box input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+  .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .social-icons-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons-box a {
+    margin-right: 50px;
+  }
+  
+  .social-icons-box a:last-child {
+    margin-right: 0;
+  }
+  
+  
+  
+  .social-icons-box a{
+    color: #ff0dff;
+  }
+  
+  .social-icons-box a.Face {
+    color: #0069f3;
+  }
+  
+  .social-icons-box a.Twitter {
+    color: #1DA1F2;
+  }
+  .forgot-password-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .forgot-password-box a {
+    background-color: #23c091b4;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    
+  }
+
+  .password-box {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .password-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .password-box input {
+    padding: 5px;
+    width: 100%;
+  }
+  
+
+  .submit-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  .submit-button {
+    background-color: #10cf90;
+  }
