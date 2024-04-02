@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="login-container">
+        <div class="login-box">
+          <div class="image-container">
+            <img src="https://ifpr.edu.br/wp-content/uploads/2023/08/marca-ifpr.jpg" alt="Login Image">
+          </div>
+          <div class="form-container">
+            <h2>Login</h2>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+            <form>
+              <label for="username">seu email:</label>
+              <input type="text" id="username" name="username"><br>
+              <label for="password">sua senha:</label>
+              <input type="password" id="password" name="password">
+              <input type="submit" value="Entrar" class="submit-button">
+            </form>
+            
+            <div class="forgot-password-box">
+                <a href="#">Esqueci minha senha  🔒</a>
+              </div>
+              <div class="social-icons-box">
+                <a class="iNSTA" href=""><i data-feather="instagram"></i></a>
+                <a class="Face" href=""><i data-feather="facebook"></i></a>
+                <a class="Twitter" href=""><i data-feather="twitter"></i></a>
+              </div>
+              
+            
+          </div>
+        </div>
+      </div>
+      <script>
+        feather.replace();
+      </script>
+</body>
+</html>
